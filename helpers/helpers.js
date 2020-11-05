@@ -1,0 +1,1 @@
+export const getURL = "http://automationpractice.com/";
