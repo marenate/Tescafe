@@ -4,8 +4,8 @@ console.log("que es lo del nom", dataCreateAccount.firstName+ +dataCreateAccount
 class PageMiCuenta{
     constructor(){
             this.selectors = {
-            //viewAccount_Link: Selector('a').withText(dataCreateAccount.firstName+ +dataCreateAccount.lastName),   
-            viewAccount_Link: Selector('#header > div.nav > div > div > nav > div:nth-child(1) > a > span'),  
+            viewAccount_Link: Selector('a').withText(dataCreateAccount.firstName+' '+dataCreateAccount.lastName),   
+            //viewAccount_Link: Selector('#header > div.nav > div > div > nav > div:nth-child(1) > a'),  
             emailTxt: Selector('#email_create'),
             createAccountBtn: Selector('#SubmitCreate'),
             firstnameTxt: Selector('#customer_firstname'),
