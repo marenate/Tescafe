@@ -87,6 +87,7 @@ class PageMiCuenta{
     async selectOneState(t, stateName){
         await t.click(this.selectors.stateDropDown);
         await t.click(this.selectors.stateDropDown.find('option').withText(stateName));
+        // todo validation
         //await t.expect(this.selectors.stateDropDown.value).eql(stateName);
     }
 }
