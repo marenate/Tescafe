@@ -5,7 +5,6 @@ class PageMiCuenta{
     constructor(){
             this.selectors = {
             viewAccount_Link: Selector('a').withText(dataCreateAccount.firstName+' '+dataCreateAccount.lastName),   
-            //viewAccount_Link: Selector('#header > div.nav > div > div > nav > div:nth-child(1) > a'),  
             emailTxt: Selector('#email_create'),
             createAccountBtn: Selector('#SubmitCreate'),
             firstnameTxt: Selector('#customer_firstname'),
@@ -20,7 +19,7 @@ class PageMiCuenta{
             postalCodetxt: Selector('#postcode'),
             homePhonetxt: Selector('#phone'),
             stateDropDown: Selector('#id_state'),
-            nameStateDropDownOption: Selector('#id_state'),//.fine('option')
+            nameStateDropDownOption: Selector('#id_state'),
             stateDropDownSelect: Selector('#uniform-id_state > span')
         }
     }
