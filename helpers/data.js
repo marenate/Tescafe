@@ -1,10 +1,10 @@
 let rndNumber = Math.random().toString(36).substr(1,4);
 
 let dataCreateAccount = {
-    email: 'dummy' + rndNumber + '@mailinator.com',
-    newemail: 'dummy1' + rndNumber + '@mailinator.com',
-    firstName: "Ted",
-    lastName: "Tamas",
+    email: 'dummy_1' + rndNumber + '@mailinatoor.com',
+    newemail: 'dummy_1' + rndNumber + '@mailinatoor.com',
+    firstName: "Todde",
+    lastName: "Thamas",
     password: "88888",
     pbox: "PO Box 7687",
     city: "Los Angeles",
